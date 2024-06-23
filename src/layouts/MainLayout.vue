@@ -12,9 +12,9 @@
 
     <q-drawer show-if-above v-model="leftDrawerOpen" side="left" bordered>
       <q-tabs>
-        <q-route-tab to="/Todo" label="Todolist" />
-        <q-route-tab to="/Post" label="Post" />
-        <q-route-tab to="/Album" label="Gallery" />
+        <q-route-tab to="/Todo" label="To-Do List" />
+        <q-route-tab to="/Post" label="Posts" />
+        <q-route-tab to="/Album" label="Albums" />
       </q-tabs>
     </q-drawer>
 
